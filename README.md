@@ -19,14 +19,14 @@ HOW TO RUN:
 USER COMMANDS:
 <br>
 
-01. `!help`             -  show commands NOT IMPLEMENTED
-02. `!rops`             -  show official RoPS feed (Requires RSS feeds)
-03. `!u`                -  show news (requires RSS feeds)
-04. `!palio`            -  predict the match result
-05. `!<name>`           -  get news about the player/coach (requires RSS feeds) DEPRECATED
-06. `!ln`               -  list players/coaches NOT IMPLEMENTED
-07. `!s`                -  show the next game info and URL to the fresh match topic on FutisForum2 of the chosen team (keyword)
-08. `!jala`             -  show the latest discussion on FUTISFORUM 2 about the chosen team (id and keyword)
-09. `!zeddy`            - loads and draws a random ascii image from the library to the screen
-10. `!i <url> <x> <y>`  - fetches and draws a ascii image to the screen. the x and y dimension parametes can be set
-11. `!jumalin`          - get the latest tweets and some replies of the chosen user
+* `!help`             -  show commands NOT IMPLEMENTED
+* `!rops`             -  show official RoPS feed (Requires RSS feeds)
+* `!u`                -  show news (requires RSS feeds)
+* `!palio`            -  predict the match result
+* `!<name>`           -  get news about the player/coach (requires RSS feeds) DEPRECATED
+* `!ln`               -  list players/coaches NOT IMPLEMENTED
+* `!s`                -  show the next game info and URL to the fresh match topic on FutisForum2 of the chosen team (keyword)
+* `!jala`             -  show the latest discussion on FUTISFORUM 2 about the chosen team (id and keyword)
+* `!zeddy`            - loads and draws a random ascii image from the library to the screen
+* `!i <url> <x> <y>`  - fetches and draws a ascii image to the screen. the x and y dimension parametes can be set
+* `!jumalin`          - get the latest tweets and some replies of the chosen user
