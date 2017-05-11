@@ -36,4 +36,4 @@ ADMIN COMMANDS:
 <br>
 
 * `!bot_quit`         -  stop and quit (DEPRECATED AND WORKS ON ALL USERS)
-* `!op <user>`        -  show official RoPS feed (DERPECATED AND WORKS ON ALL USERS)
+* `!op <user>`        -  give operator status to an user (DEPRECATED AND WORKS ON ALL USERS)
