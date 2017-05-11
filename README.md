@@ -38,5 +38,3 @@ ADMIN COMMANDS:
 
 * `!bot_quit`         -  stop and quit (DEPRECATED AND WORKS ON ALL USERS)
 * `!op <user>`        -  show official RoPS feed (DERPECATED AND WORKS ON ALL USERS)
-=======
->>>>>>> c69b6656d650fcb5c60f86b933f68faba4f948b6
