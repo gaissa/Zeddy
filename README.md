@@ -30,7 +30,6 @@ USER COMMANDS:
 * `!zeddy`            - loads and draws a random ascii image from the library to the screen
 * `!i <url> <x> <y>`  - fetches and draws a ascii image to the screen. the x and y dimension parametes can be set
 * `!jumalin`          - get the latest tweets and some replies of the chosen user
-<<<<<<< HEAD
 
 <br>
 ADMIN COMMANDS:
