@@ -1,0 +1,8 @@
+BeautifulSoup==3.2.1
+feedparser==5.2.1
+oauthlib==1.0.3
+Pillow==4.1.1
+requests==2.14.2
+requests-oauthlib==0.8.0
+six==1.10.0
+tweepy==3.5.0
