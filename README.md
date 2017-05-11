@@ -1,6 +1,6 @@
 # Zeddy
 
-IRCbot Zeddy
+IRCbot Zeddy, old and buggy :)
 <br><br>
 
 ### INSTALL (pip)
