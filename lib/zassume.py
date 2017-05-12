@@ -1,14 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
 ##  Module: zassume.py
 ##  Version: 2017-12-05
 ##  gaissa <https://github.com/gaissa>
 
-
 import random
-
 
 h = {
 	'0': 10,
