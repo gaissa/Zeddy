@@ -7,8 +7,9 @@ IRCbot Zeddy, old and buggy :)
 
 01. Install pip from https://pip.pypa.io/en/stable/installing/ or just `wget https://bootstrap.pypa.io/get-pip.py` and `pip install -U pip` to upgrade
 02. `pip install requirements`
-03. `python zeddy.py`
-04. Should run! 
+03. Setup the needed API keys
+04. `python zeddy.py`
+05. Should run! 
 
 <br>
 HOW TO RUN:
