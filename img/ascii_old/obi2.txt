@@ -1,0 +1,57 @@
+
+                                                                                                                        
+                                                           ....                                                         
+                                                       ^9R+&&&/+R9R.                                                    
+                                                   ,9R+&%%%&&&&%%%%&+R^                                                 
+                                                 .R&&&&&&&&&&&&&&&&&%%&/^                                               
+                                                #/&&&&&&&&&&&&&%&&%&&&&&&+..                                            
+                                             ../&&&&&&&&&&&&/////////&&&&&&&9,                                          
+                                           .#/&&&&&&&////++++++++++/+///////&/R,                                        
+                                          #/&&&////+++++++++++++++++++++++//////.                                       
+                                         R&//////+++++++RRRRRRRRRRRRRR++++++//++/#                                      
+                                        #&////++++++RRRRRRRRRRRRRRRRRRR++++++++++/9                                     
+                                       ,////+RRRRRRRRR99RRRRRRRRRRRRRR++++++++++++/#                                    
+                                       #/+/+RRRR9999R9RRRRRRRR99RRRRRRRRRRR+++++++RR                                    
+                                       R+++RRR99999RR+RRR++RR99######9##99R+//////R9.                                   
+                                      .++++9999#99RR999##999RRRR999999RRR++RR9RRR++9.                                   
+                                      ,++++R99999999###999RR++++R99#9RR+//+RRR++RRR9                                    
+                                      .+R++R999999999R+++++++//+R999R++///++++++/+R#                                    
+                                       #+++RR9999RRRR+RRRRRRRRRRRRRRRR++/++++++++++#                                    
+                                      ..RR+RRRR9RRRRRRRRR++RRRRRRRRRRRR++//++++++++R                                    
+                                     ^+9999RRRR9R9999RRRRR9999R999999##9RR+RRR99RRRR,                                   
+                                     #9#R999RR99R999######999#99999#9##9RRR++RR99R99.                                   
+                                     #99R9##9R999999#.##9R999##9999RRRR+++++RRRRRRR9.                                   
+                                      #RRRR99R99RRR99999R9####99RRRRRRRR++++RRR+RRRR.                                   
+                                       ^#,,#999999RR9999R999RRR9#999####999R++++9R9R.                                   
+                                          .#9##99##999999R++9.^^.,.,.,^.^^^.+/+R999R,                                   
+                                           ^9.##99999R9999RR9######9#99#9RRR+++RRRR#                                    
+                                           ^9##99RR999RR99999999#######99RR9RRRR9+#                                     
+                                           ^R##99RRRRRRRR99#########99999RR9RR99R.                                      
+                                           ^R999RRRRRRRRRR99######99999999RRRR##,                                       
+                                           ,RRRR9RR+RRRRRR999######9#9999RRRR9,                                         
+                                           .RRRRRRRRRRRRRRRRR9#####9#99999RR9.                                          
+                                          ^99RR9RR9RRRRRR+++RRRRRRRRRRRRRRR9.                                           
+                                         ,+RRRR9RRR999RRRR+++++++++/+++++R99.                                           
+                                       ^R/++R99R9999999999RRRR+++++///++R9RR,                                           
+                                   .,.9R9/++RR999999999999999999999RR+RR9RRR.                                           
+                             .,^.#R+++RR9R+/+R99999999999999999999999RRRRRR9.                                           
+                         ..#RR+/+//+++/+RRR+++9999999999999RR999RRRRRRRRRRR9R#^.                                        
+                     .^.9+++++++++++++++++RRR++R99999999999RRRRRRRRR++RRRRRR+++RR9^                                     
+                  .^#RR+++++++++/++++++++++++RR+RR99999999RRRRRRRRRRRRRRRRR9RR++R++R#,                                  
+                ,#9++++R++/+++++/+/++++++++++++RR++R.^^#99RRRRRRRRR+++++RR.,RR++R+++++RR#.^.                            
+            .^.#++R+/++++++//++++/+++++++++++++++++++9^   .,,^^.......^^,. .+R++R+++++++++++R9.,                        
+          ,#R+++R+R+++++++++/+++++++++++++++++RR+R+++++R.,        .,..^...,RR+RRR+++++++++++++++R^                      
+      .^#9RRRRR++++++++++++//+++++++++++++++++++++++++R+++9^......^R.#+,.,#RRR++RR+++++++++++++R++R..                   
+    ..9RRRRRRRRRRRR+++++++++++++++/++++RRRRRR999#999RR++R+++R#^.. ^.^/R ,9+RR++R++++R++/++++++++RR++9.                  
+ .^#RRRRRRRRRRRRRRR++++++++++++++++R9#......^^^.###.##.#R++R+++R#,#9^&+^RRRR+++#^###99999###..^9^9RR+R9,                
+#R+RRRRRRRRRRRRRRRRR++++++++++++++#..#9^#9.#R99+/+#R///R.R+++RR+++R+#//RRRR+++++#^.^^^#.9^..^,^.^.+R+R99.               
+RRRRRRRRRRRRRRRRRRRRRRR+++R++++++R.9RR99R.#99#^.^#,R//+99R+++++RRR+R+RRRR++++++++RRRR9R9RR99RRRRRRRRR+RR9.              
+RRRRRRRRRRRRRRRRRRRRRRRRR+RR++R+++R##R9##R9#9R9+9999999RR+RRRR++++++R+R++R++++++RRR+R###RR+RRRRRRRRRR+RRR9#             
+9RRRRRRRRRRRRRRRRRRRRRRRRRRR++RR+R+R99999RR9RR99RRRRRR++RRRRRRR+++++++++R+++++++RRRR..9^^.#RRRRRRRRRR+RRR99.            
+RR9999R9RRRRRRRRRRRRRRRRRRRRR+RR+R+++++++RR+R++RRRRR+R.RRRRRRRRR+++++++R++++++++RRRR...#..^.#RRRRRRRR+RRRR99.           
+999999999999RRRRRRRRRRRRR+RRR++RRRRR+RR+++R,.^.9RR++R^.RRRRRRRRRRR+++++R++++++RR+RRR#..^...^.RRRRRRRR+RRRRR99,          
+999999999999RRRRRRRRRRRRR+RRR++RRRRRRRR+R+R^. . .^#9.#+RRRRRRRR+RRRR+++++++++RRRRR+R9.^^..#,#RRRRRRRR+RRRRR99.          
+99999999999RRRRRRRRRRRRRRR+RR+RRRRRRRRRRRRRRRRR9.... #+RRRRRRRRRRRRR++R+R++RRRRR+RRRRR#^^,,.RRRRRR9RR+RRRRR9R9          
+999999999RRRRRRRRRRRRRRRRRR+RRRRRRRRRRRRRRRRRRRR+++R...R+RRRRRRRRRRRRRRRRRRRRRRRRRRRRR+R999RRRRRR99R++RRRRRRRR^         
+9999RR999RRRRRRRRRRRRRRRRRR+RRRRRRRRRRRRRRRRRRRRRRRR+R..+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR99R++RR++RRRR#         
+RRRRRRR9RRRRRRRRRRRRRRRRRRRRRRRR99RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR999R+R++++++RR#         
