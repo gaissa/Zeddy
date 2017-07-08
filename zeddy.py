@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 ##	Zeddy
-##	Version: 2017-05-29
+##	Version: 2017-07-07
 ##	2012-2017 - gaissa <https://github.com/gaissa>
 
 # import external modules
@@ -192,37 +192,37 @@ def main():
 	def news():
 
 		if data.find(' PRIVMSG ' + chan + ' :!u') != -1:
-			
+
 			#print 'jes'
 			# RSS 1
 			#a = feedparser.parse(rops)
 
 			# RSS 2
-			b = feedparser.parse(rfeed1)					
+			b = feedparser.parse(rfeed1)
 
 			#send1("" + a.entries[0].title + "")
 			#send1(a.entries[0].link)
 			#time.sleep(2)
 			send1("" + b.entries[0].title + "")
 			send1(b.entries[0].link)
-			time.sleep(2)			
+			time.sleep(2)
 
 			send1("" + b.entries[1].title + "")
 			send1(b.entries[1].link)
-			time.sleep(2)			
-						
+			time.sleep(2)
+
 			#print socket.getaddrinfo
-			
+
 			origGetAddrInfo = socket.getaddrinfo
-			
+
 			def getAddrInfoWrapper(host, port, family=0, socktype=0, proto=0, flags=0):
 				return origGetAddrInfo(host, port, socket.AF_INET, socktype, proto, flags)
 
 			# replace the original socket.getaddrinfo by version above
 			socket.getaddrinfo = getAddrInfoWrapper
-			
+
 			#print socket.getaddrinfo
-			
+
 			# RSS 3
 			try:
 				c = feedparser.parse(rfeed2)
@@ -231,10 +231,10 @@ def main():
 				logging.error('Error while retrieving feed.')
 				logging.error(e)
 				logging.error(formatExceptionInfo(None))
-				logging.error(formatExceptionInfo1())				
-			
-			socket.getaddrinfo = origGetAddrInfo			
-			
+				logging.error(formatExceptionInfo1())
+
+			socket.getaddrinfo = origGetAddrInfo
+
 			send1("" + c.entries[0].title + "")
 			send1(c.entries[0].link)
 			time.sleep(2)
@@ -277,7 +277,7 @@ def main():
 					#f.close()
 					break
 					#time.sleep(2)
-					
+
 		if data.find(' PRIVMSG ' + chan + ' :!santa') != -1:
 
 			a = feedparser.parse(ff_santa)
@@ -290,14 +290,14 @@ def main():
 
 		# player RSS feeds
 		if data.find(' PRIVMSG ' + chan + ' :!malinen') != -1:
-			playerfeed('http://www.suomifutis.com/tag/malinen-juha/feed/')		
+			playerfeed('http://www.suomifutis.com/tag/malinen-juha/feed/')
 
 		if data.find(' PRIVMSG ' + chan + ' :!borre') != -1 or data.find(' PRIVMSG ' + chan + ' :!kokko') != -1:
 			playerfeed('http://www.suomifutis.com/tag/kokko-aleksandr/feed/')
 
 		#if data.find(' PRIVMSG ' + chan + ' :!olli') != -1:
 			#playerfeed('http://www.suomifutis.com/tag/poylio-olli/feed/')
-			
+
 		if data.find(' PRIVMSG ' + chan + ' :!simo') != -1 or data.find(' PRIVMSG ' + chan + ' :!simppa') != -1:
 			playerfeed('http://www.suomifutis.com/tag/roiha-simo/feed/')
 
@@ -306,7 +306,7 @@ def main():
 
 		if data.find(' PRIVMSG ' + chan + ' :!saksela') != -1:
 			playerfeed('http://www.suomifutis.com/tag/saksela-janne/feed/')
-			
+
 		if data.find(' PRIVMSG ' + chan + ' :!epic') != -1:
 			playerfeed('http://www.suomifutis.com/tag/saxman-ville/feed/')
 
@@ -315,24 +315,24 @@ def main():
 
 		if data.find(' PRIVMSG ' + chan + ' :!piri') != -1:
 			playerfeed('http://www.suomifutis.com/tag/pirinen-juha/feed/')
-			
+
 		if data.find(' PRIVMSG ' + chan + ' :!taylor') != -1 or  data.find(' PRIVMSG ' + chan + ' :!roope') != -1:
 			playerfeed('http://www.suomifutis.com/tag/taylor-robert/feed/')
-			
+
 		if data.find(' PRIVMSG ' + chan + ' :!juuso') != -1:
 			playerfeed('http://www.suomifutis.com/tag/hamalainen-juuso/feed/')
 
 		if data.find(' PRIVMSG ' + chan + ' :!riku') != -1:
 			playerfeed('http://www.suomifutis.com/tag/ricardo/feed/')
 
-		#if data.find(' PRIVMSG ' + chan + ' :!muksu') != -1:
-			#playerfeed('http://www.suomifutis.com/tag/makitalo-mika/feed/')
-			
+		if data.find(' PRIVMSG ' + chan + ' :!muksu') != -1:
+			playerfeed('http://www.suomifutis.com/tag/makitalo-mika/feed/')
+
 		#if data.find(' PRIVMSG ' + chan + ' :!tomer') != -1:
 			#playerfeed('http://www.suomifutis.com/tag/chencinski-tomer/feed/')
-			
-		#if data.find(' PRIVMSG ' + chan + ' :!obi') != -1:
-			#playerfeed('http://www.suomifutis.com/tag/obilor-friday/feed/')
+
+		if data.find(' PRIVMSG ' + chan + ' :!obi') != -1:
+			playerfeed('http://www.suomifutis.com/tag/obilor-friday/feed/')
 
 	# player feeds
 	def playerfeed(tag):
@@ -348,19 +348,19 @@ def main():
 			send1("" + t.entries[x].title + "")
 			send1(t.entries[x].link)
 			time.sleep(2)
-			
+
 	# COMMENT
 	def convert(urldata, x, y):
 
 		if len(urldata) < 1:
 			send1('BASIC USAGE: !i <url> <x, y>')
 		else:
-			try:			
-							
+			try:
+
 			#print socket.getaddrinfo
-			
+
 				origGetAddrInfo = socket.getaddrinfo
-				
+
 				def getAddrInfoWrapper(host, port, family=0, socktype=0, proto=0, flags=0):
 					return origGetAddrInfo(host, port, socket.AF_INET, socktype, proto, flags)
 
@@ -390,7 +390,7 @@ def main():
 						time.sleep(3.5)
 
 				f.close()
-				
+
 				socket.getaddrinfo = origGetAddrInfo
 
 			except ValueError:
@@ -433,7 +433,7 @@ def main():
 	def nextmatch(data):
 
 		#print data
-		
+
 		f = open('./data/forum', 'w')
 		f.close()
 
@@ -453,7 +453,7 @@ def main():
 
 	# read next match from a file
 	def next():
-		
+
 		w = False
 
 	# say hello message
@@ -466,10 +466,10 @@ def main():
 			'tampere': ['ilves', 'tampereen', 'ipa', 'ilves'],
 			'kemi': ['kemi', 'pskemi', 'kings', 'keps', 'kommarit'],
 			'kuopio': ['kuopion', 'kuopio', 'kups', 'savolaiset'],
-			#'kotka': ['kotka', 'kotkan', 'ktp', 'kooteepee', 'fcktp', 'ahtaajat'],			
+			#'kotka': ['kotka', 'kotkan', 'ktp', 'kooteepee', 'fcktp', 'ahtaajat'],
 			'lahti': ['lahti', 'lahden', 'lahi', 'fclahti'],
 			'maarianhamina': ['ifkmariehamn', 'maarianhamina', 'maarianhaminan', 'mifk', 'milf', 'milffi'],
-			#'pietarsaari': ['pietarsaari', 'pietarsaaren', 'jaro', 'ffjaro'],			
+			#'pietarsaari': ['pietarsaari', 'pietarsaaren', 'jaro', 'ffjaro'],
 			'rovaniemi': ['asiakeskustelut|rops', 'lc:rops', 'rovaniemi', 'rovaniemen', 'rops', 'ropsi', 'napapiirin'],
 			'seinäjoki': ['seinäjoki', 'seinäjoen', 'sjk', 'nottajoki', 'nottajoen'],
 			'turku': ['turku', 'turun', 'inter', 'fcinter', 'internazionale'],
@@ -479,7 +479,7 @@ def main():
 		# WEATHER STARTS
 		weather = lines[0].strip().replace(' ', '').split('-')
 		team = weather[0].lower()
-		
+
 		#print weather
 		#print team
 
@@ -506,7 +506,7 @@ def main():
 					temp_c = parsed_json['current_observation']['temp_c']
 					feel_temp = parsed_json['current_observation']['feelslike_c']
 					hum = parsed_json['current_observation']['relative_humidity']
-					wind = str(round(parsed_json['current_observation']['wind_kph'] / 3.6, 2)) + 'm/s '					
+					wind = str(round(parsed_json['current_observation']['wind_kph'] / 3.6, 2)) + 'm/s'
 
 					match = city.upper() + ' => Nyt: ' + str(temp_c) + '°C | Tuntuu: ' + feel_temp + '°C, (kosteus ' + hum + ', tuuli ' + wind +')'
 					w = True
@@ -515,19 +515,19 @@ def main():
 				else:
 					pass
 		#WEATHER ENDS
-		
+
 		send1("" + lines[0].strip() + "")
-		
+
 		if w == True:
 			send1(match)
-		
+
 		send1(lines[1].strip())
 
 	# COMMENT THIS
-	def match(match):		
-		
-		temp = data.split(':!')		
-	
+	def match(match):
+
+		temp = data.split(':!')
+
 		if len(temp[1]) == 3 or len(temp[1]) == 5:
 			nextmatch(match)
 			next()
@@ -577,10 +577,10 @@ def main():
 			#print zz.isAlive()
 			threads[-1].start()
 			#threads[0].join()
-			
-					
+
+
 		# tell the next cup match
-		if data.find(' PRIVMSG ' + chan + ' :!c') != -1:			
+		if data.find(' PRIVMSG ' + chan + ' :!c') != -1:
 			match(nextcupgame)
 
 		# tell the next league match
